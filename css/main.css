@@ -1,0 +1,49 @@
+/* Retângulo 1 */
+.fa.fa-info {
+    position: absolute;
+    width: 171.75px;
+    height: 103.49px;
+    left: 37px;
+    top: 265.24px;
+    background-image: url(hf.jpg);
+    transform: rotate(-0.41deg);
+  };
+  
+
+
+.fade-in.imagem {
+    position: absolute;
+    width: 172px;
+    height: 148px;
+    left: 38px;
+    top: 111px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+  }
+
+  @media only screen and (min-width: 600px) {
+    /* Estilos para dispositivos Android de tela grande */
+  
+    /* Estilos para as seções com classe "fade-in" */
+    .fade-in {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    /* Estilos para as imagens dentro das seções com classe "fade-in" */
+    .fade-in img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Estilos para o ícone com classe "fa-info" */
+    .fa-info {
+      font-size: 24px;
+    }
+  }
+  
